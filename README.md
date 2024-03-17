@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="index.css">
+    
+    <title>M&M company/Accueil</title>
+</head>
+<body>
+        <header class="header">
+            <a href="#" id="logo">M&M <span>Company</span></a>
+
+            <nav class="navbar">
+                <a href="index.html">Accueil</a>
+                <a href="new york.html">New York</a>
+                <a href="Dubaï.html">Dubaï</a>
+                <a href="kilimanjaro.html">Kilimanjaro</a>
+                <a href="maldives.html">Maldives</a>
+                <a href="cite petra.html">Cité pétra</a>
+
+            </nav>
+           
+        </header>
+        <!--background-image-->
+       <div class="background-image">
+        <h1 class="welcome_message">EXPLOREZ LE MONDE<span class="auto-typing"></span></h1><br><br>
+        <BR>
+            <br>
+            
+        <p> visitez notre site web dans de meilleurs conditions
+
+        </p>
+       </div>
+        
+        
+       <h2>EXPLOREZ NOS MEILLEURS DESTINATIONS</h2>
+      <div class="row">
+       <div class="col">
+          <div class="card card1">
+                <h5>New york</h5> 
+                <br>
+                  <br>
+                  <br> 
+                  <br>
+                <a href="new york.html">decouvrir</a>
+            </div>
+        
+
+            <div class="card card2">
+                  <h5>DUBAÏ</h5> 
+                  <br>
+                  <br>
+                  <br> 
+                  <br>
+                  <a href="Dubaï.html">decouvrir</a>
+          </div> 
+
+            <div class="card card3">
+                  <h5>KILIMANJARO</h5> 
+                  <br>
+                  <br>
+                  <br> 
+                  <br>
+                  <a href="kilimanjaro.html">decouvrir</a>
+          </div> 
+
+            <div class="card card4">
+                  <h5>MALDIVES</h5> 
+                  <br>
+                  <br>
+                  <br> 
+                  <br>
+                  <a href="maldives.html">decouvrir</a>
+            </div>
+
+            <div class="card card5">
+                  <h5>CITE PETRA</h5>
+                  <br>
+                  <br>
+                  <br> 
+                  <br>
+                 <a href="cite petra.html">decouvrir</a>
+          </div> 
+       </div>
+      </div>
+
+      
+      <footer>
+        
+        <div class="contenu-footer">
+            <div class="bloc footer-services">
+               <h3>Nos Services</h3>
+               <ul class="services-list">
+               <li><a href="#">Herbegement</a></li>
+               <li><a href="#">Nom de domaines</a></li>
+               <li><a href="#">E-commerce</a></li>
+               <li><a href="#">Machine Learning</a></li>
+               <li><a href="#">Finances</a></li>
+               <li><a href="#">Start-up</a></li>
+               </ul>
+            </div>
+            <div class="bloc footer-contact">
+                <h3>contactez-nous</h3>
+                <p>+221-77-844-09-47</p>
+                <p>laminekaba702@gmail.com</p>
+                <p>ecole superieure multinational des tellecomunications, dakar</p>
+            </div>    
+            <div class="bloc footer-medias">
+                <h3>Nos reseaux sociaux</h3>
+                <ul class="liste-media">
+                   <li><a href="#"><img src="image/Facebook.jpg" alt="icones reseaux sociaux">Facebook</a></li>
+                   <li><a href="#"><img src="image/WhatsApp.jpg" alt="icones reseaux sociaux">Whatsapp</a></li>
+                   <li><a href="#"><img src="image/Instagram.png" alt="icones reseaux sociaux">Instagram</a></li>
+                   <li><a href="#"><img src="image/Twitter.png" alt="icones reseaux sociaux">Twitter</a></li>
+                </ul>
+            </div>   
+            
+            <div class="Newsletter-foot">
+                <h1>Commentaires</h1>
+                <form method="POST" action="traitement.html" name="news">
+                    <div>
+                        <input type="email" name="adressemail" class="ki" required placeholder="Votre E-Mail"><br>
+                        <textarea placeholder="Entrez le commentaire"></textarea><br>
+                        <button type="submit" name="Newsletter" class="News-Envoyer">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+        <div class="bas">
+            <br class="vlk">© 2024 M&M company | Mentions Légales & Politique de Confidentialité | Site web créé par Mahamadou Lamine Kaba et Mouhamadou Moustapha Ngom | Tous droits réservés.</br>
+        </div>
+            
+
+
+    
+    
+      </footer>
+       
+       <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+</body>
+</html>
